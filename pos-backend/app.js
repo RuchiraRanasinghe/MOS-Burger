@@ -5,10 +5,13 @@ const globalErrorHandler = require("./middlewares/globalErrorHandler");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const app = express();
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./config/swagger'); 
 
 
 const PORT = config.port;
 connectDB();
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Middlewares
 app.use(cors({
@@ -28,7 +31,6 @@ app.get("/", (req,res) => {
 app.use("/api/user", require("./routes/userRoute"));
 app.use("/api/order", require("./routes/orderRoute"));
 app.use("/api/table", require("./routes/tableRoute"));
-// app.use("/api/payment", require("./routes/paymentRoute"));
 
 // Global Error Handler
 app.use(globalErrorHandler);

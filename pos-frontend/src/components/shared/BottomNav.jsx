@@ -85,7 +85,7 @@ const BottomNav = () => {
         <div>
           <label className="block text-[#ababab] mb-2 mt-3 text-sm font-medium">Customer Phone</label>
           <div className="flex items-center rounded-lg p-3 px-4 bg-[#1f1f1f]">
-            <input value={phone} onChange={(e) => setPhone(e.target.value)} type="number" name="" placeholder="+91-9999999999" id="" className="bg-transparent flex-1 text-white focus:outline-none"  />
+            <input value={phone} onChange={(e) => setPhone(e.target.value)} type="number" name="" placeholder="+94-9999999999" id="" className="bg-transparent flex-1 text-white focus:outline-none"  />
           </div>
         </div>
         <div>
