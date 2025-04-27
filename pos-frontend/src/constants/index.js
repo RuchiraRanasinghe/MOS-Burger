@@ -93,122 +93,122 @@ export const tables = [
     { id: 15, name: "Table 15", status: "Booked", initial: "TW", seats: 3 }
   ];
   
-export const startersItem = [
+  export const startersItem = [
     {
       id: 1,
-      name: "Paneer Tikka",
+      name: "Bruschetta",
       price: 250,
       category: "Vegetarian"
     },
     {
       id: 2,
-      name: "Chicken Tikka",
+      name: "Chicken Wings",
       price: 300,
       category: "Non-Vegetarian"
     },
     {
       id: 3,
-      name: "Tandoori Chicken",
+      name: "BBQ Ribs",
       price: 350,
       category: "Non-Vegetarian"
     },
     {
       id: 4,
-      name: "Samosa",
+      name: "Mozzarella Sticks",
       price: 100,
       category: "Vegetarian"
     },
     {
       id: 5,
-      name: "Aloo Tikki",
+      name: "Garlic Bread",
       price: 120,
       category: "Vegetarian"
     },
     {
       id: 6,
-      name: "Hara Bhara Kebab",
+      name: "Stuffed Mushrooms",
       price: 220,
       category: "Vegetarian"
     }
-  ];
+  ];  
   
-export const mainCourse = [
-  {
-    id: 1,
-    name: "Butter Chicken",
-    price: 400,
-    category: "Non-Vegetarian"
-  },
-  {
-    id: 2,
-    name: "Paneer Butter Masala",
-    price: 350,
-    category: "Vegetarian"
-  },
-  {
-    id: 3,
-    name: "Chicken Biryani",
-    price: 450,
-    category: "Non-Vegetarian"
-  },
-  {
-    id: 4,
-    name: "Dal Makhani",
-    price: 180,
-    category: "Vegetarian"
-  },
-  {
-    id: 5,
-    name: "Kadai Paneer",
-    price: 300,
-    category: "Vegetarian"
-  },
-  {
-    id: 6,
-    name: "Rogan Josh",
-    price: 500,
-    category: "Non-Vegetarian"
-  }
-];
+  export const mainCourse = [
+    {
+      id: 1,
+      name: "Grilled Salmon",
+      price: 400,
+      category: "Non-Vegetarian"
+    },
+    {
+      id: 2,
+      name: "Vegetable Lasagna",
+      price: 350,
+      category: "Vegetarian"
+    },
+    {
+      id: 3,
+      name: "Beef Stroganoff",
+      price: 450,
+      category: "Non-Vegetarian"
+    },
+    {
+      id: 4,
+      name: "Mushroom Risotto",
+      price: 180,
+      category: "Vegetarian"
+    },
+    {
+      id: 5,
+      name: "Spinach and Ricotta Cannelloni",
+      price: 300,
+      category: "Vegetarian"
+    },
+    {
+      id: 6,
+      name: "Roast Chicken",
+      price: 500,
+      category: "Non-Vegetarian"
+    }
+  ];  
 
-export const beverages = [
-  {
-    id: 1,
-    name: "Masala Chai",
-    price: 50,
-    category: "Hot"
-  },
-  {
-    id: 2,
-    name: "Lemon Soda",
-    price: 80,
-    category: "Cold"
-  },
-  {
-    id: 3,
-    name: "Mango Lassi",
-    price: 120,
-    category: "Cold"
-  },
-  {
-    id: 4,
-    name: "Cold Coffee",
-    price: 150,
-    category: "Cold"
-  },
-  {
-    id: 5,
-    name: "Fresh Lime Water",
-    price: 60,
-    category: "Cold"
-  },
-  {
-    id: 6,
-    name: "Iced Tea",
-    price: 100,
-    category: "Cold"
-  }
-];
+  export const beverages = [
+    {
+      id: 1,
+      name: "Espresso",
+      price: 50,
+      category: "Hot"
+    },
+    {
+      id: 2,
+      name: "Cola",
+      price: 80,
+      category: "Cold"
+    },
+    {
+      id: 3,
+      name: "Strawberry Smoothie",
+      price: 120,
+      category: "Cold"
+    },
+    {
+      id: 4,
+      name: "Iced Latte",
+      price: 150,
+      category: "Cold"
+    },
+    {
+      id: 5,
+      name: "Sparkling Water",
+      price: 60,
+      category: "Cold"
+    },
+    {
+      id: 6,
+      name: "Peach Iced Tea",
+      price: 100,
+      category: "Cold"
+    }
+  ];  
 
 export const soups = [
   {
@@ -252,25 +252,25 @@ export const soups = [
 export const desserts = [
   {
     id: 1,
-    name: "Gulab Jamun",
+    name: "Cheesecake",
     price: 100,
     category: "Vegetarian"
   },
   {
     id: 2,
-    name: "Kulfi",
+    name: "Tiramisu",
     price: 150,
     category: "Vegetarian"
   },
   {
     id: 3,
-    name: "Chocolate Lava Cake",
+    name: "Chocolate Brownie",
     price: 250,
     category: "Vegetarian"
   },
   {
     id: 4,
-    name: "Ras Malai",
+    name: "Apple Pie",
     price: 180,
     category: "Vegetarian"
   }
@@ -279,19 +279,19 @@ export const desserts = [
 export const pizzas = [
   {
     id: 1,
-    name: "Margherita Pizza",
+    name: "Four Cheese Pizza",
     price: 350,
     category: "Vegetarian"
   },
   {
     id: 2,
-    name: "Veg Supreme Pizza",
+    name: "Veggie Delight Pizza",
     price: 400,
     category: "Vegetarian"
   },
   {
     id: 3,
-    name: "Pepperoni Pizza",
+    name: "BBQ Chicken Pizza",
     price: 450,
     category: "Non-Vegetarian"
   }
@@ -382,7 +382,7 @@ export const menus = [
 ]
 
 export const metricsData = [
-  { title: "Revenue", value: "₹50,846.90", percentage: "12%", color: "#025cca", isIncrease: false },
+  { title: "Revenue", value: "LKR 50,846.90", percentage: "12%", color: "#025cca", isIncrease: false },
   { title: "Outbound Clicks", value: "10,342", percentage: "16%", color: "#02ca3a", isIncrease: true },
   { title: "Total Customer", value: "19,720", percentage: "10%", color: "#f6b100", isIncrease: true },
   { title: "Event Count", value: "20,000", percentage: "10%", color: "#be3e3f", isIncrease: false },
@@ -398,7 +398,7 @@ export const itemsData = [
 export const orders = [
   {
     id: "101",
-    customer: "Amrit Raj",
+    customer: "Kamala Harris",
     status: "Ready",
     dateTime: "January 18, 2025 08:32 PM",
     items: 8,
